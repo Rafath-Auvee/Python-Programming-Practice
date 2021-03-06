@@ -1,6 +1,17 @@
 mylists = ["banana", "cherry", "apple"]
 print(mylists)
 
+item = mylists.sort()
+print(mylists)
+mylists.sort()
+
+new_list = sorted(mylists)
+
+print(mylists)
+
+item = mylists.reverse()
+print(mylists)
+
 mylists2 = [5, True, "apple", "apple"]
 print(mylists2)
 
@@ -32,3 +43,31 @@ print(mylists)
 
 item = mylists.clear()
 print(mylists)
+
+
+ch = [0] * 5
+print(ch)
+
+myl = [1, 2, 3, 4, 5]
+
+new = myl + ch
+print(new)
+
+
+mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+a = mylist[1:5]
+print(a)
+
+
+mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+a = mylist[:-5]
+print(a)
+
+mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+a = mylist[::2]
+print(a)
+
+
+mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+a = mylist[::-1]
+print(a)
